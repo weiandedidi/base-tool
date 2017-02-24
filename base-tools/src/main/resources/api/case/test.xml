@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+    <url name="获取用户信息" encrypt="true">
+        http://test.api.music.lsh.com/api/app/user/show
+    </url>
+    <dataAry>
+        <data desc="获取用户信息1" method="post" effective="true">
+            <headAry>
+                <head key="apiversion" value="1"/>
+                <head key="appversion" value="2"/>
+                <head key="appkey" value="CqEtxH6B3XnMXe2icXia"/>
+                <head key="datakey" value="3"/>
+                <head key="devid" value="4"/>
+                <head key="devmac" value="5"/>
+                <head key="devmanufacturer" value="6"/>
+                <head key="devmodel" value="7"/>
+                <head key="platform" value="8"/>
+            </headAry>
+            <bodyAry>
+                <body type="1" key="utoken" value="cb9c1a5b6910fb2f55349c72a392d90d"/>
+                <body type="1" key="uid" value="10071"/>
+            </bodyAry>
+        </data>
+    </dataAry>
+</test>

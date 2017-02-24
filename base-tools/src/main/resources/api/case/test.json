@@ -1,0 +1,39 @@
+{
+  "name": "注册接口",
+  "url": "http://localhost:8022/api/app/user/register",
+  "encrypt": true,
+  "data": [
+    {
+      "desc": "注册私有验证post1",
+      "method": "post",
+      "effective": false,
+      "head": [
+        {"key": "apiversion","value": "1"},
+        {"key": "appversion","value": "2"},
+        {"key": "appkey","value": "3"},
+        {"key": "datakey","value": "4"},
+        {"key": "devid","value": "6"},
+        {"key": "devmac","value": "7"},
+        {"key": "devmanufacturer","value": "8"},
+        {"key": "devmodel","value": "9"},
+        {"key": "platform","value": "1"}
+      ],
+      "body": [
+        {"type": 1,"key": "phone","value": ""},
+        {"type": 1,"key": "passwd","value": "e10adc3949ba59abbe56e057f20f883e"},
+        {"type": 1,"key": "checkcode","value": "928817"},
+        {"type": 1,"key": "thirduid","value": "192.168.152.78"},
+        {"type": 1,"key": "username","value": "哼哼"},
+        {"type": 1,"key": "namereal","value": "李行亮"},
+        {"type": 1,"key": "sex","value": "1"},
+        {"type": 1,"key": "birthday","value": "1988-3-20"},
+        {"type": 1,"key": "country","value": "中国"},
+        {"key": "province","value": "湖北"},
+        {"key": "city","value": "襄阳"},
+        {"type": 2,"key": "picfile","value": "/Users/zhuminghua/Downloads/test_materials/图片/829323.jpg"},
+        {"key": "thridsrc","value": "1"},
+        {"key": "userrole","value": "1,2,3"}
+      ]
+    }
+  ]
+}
